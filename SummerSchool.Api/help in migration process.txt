@@ -1,0 +1,20 @@
+Add-Migration SummerSchoolLoginDBMigration -context ApplicationIdentityDbContext
+update-database SummerSchoolLoginDBMigration -context ApplicationIdentityDbContext
+
+{
+  "Username": "test",
+  "Email": "test@example.com",
+  "Password": "ANNA2021#test"
+}
+
+{
+  "Username": "anna",
+  "Email": "anna@example.com",
+  "Password": "anna2021ANNA!"
+}
+
+{
+  "Username": "test225",
+  "Email": "test225@example.com",
+  "Password": "test225TEST#"
+}
